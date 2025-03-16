@@ -10,7 +10,7 @@ $.ajax({
                     <div class="card-body">
                         <h5 class="card-title">${restaurant.name}</h5>
                         <p class="card-text">${restaurant.description}</p>
-                         <a href=${"rest/"+restaurant.id} class="btn btn-primary">Add to Cart</a>
+                         <a href=${"rest.html?restaurant="+encodeURIComponent(restaurant.id)} class="btn btn-primary">View Details</a>
                     </div>
                 </div>`;
                 $('#restaurant-list').append(restaurantCard);
@@ -21,3 +21,8 @@ $.ajax({
    $('#restaurant-list').html('<p>The data is not loaded...Error ocured....</p>')
   },
 });
+
+function buttonClick( restaurant,itemName,itemPrice) {
+
+  console.log('Item:',itemName);
+  }

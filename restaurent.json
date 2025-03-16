@@ -39,7 +39,7 @@
       ]
   },
   {
-    "id": "Baskin-Robbins",
+    "id": "BaskinRobbins",
     "name": "Baskin-Robbins",
     "image": "./Images/baskins.jpeg",
     "description": "Throughout its 65 years Baskin-Robbins has become a place for families to gather for holidays and everyday celebrations.",
@@ -52,7 +52,7 @@
         ]
 },
 {
-  "id": "The Cheesecake Factory",
+  "id": "TheCheesecakeFactory",
   "name": "The Cheesecake Factory",
   "image": "./Images/cake.jpeg",
   "description": "American chain restaurant offering sizable portions from a vast menu including signature cheesecake",
@@ -65,7 +65,7 @@
 ]
 },
 {
-  "id": "Desi Food",
+  "id": "DesiFood",
   "name": "Desi Food",
   "image": "./Images/indianhotel.jpeg",
   "description": "No-frills shopping-center Indian eatery serving all the classics for eat-in or to take out.",
