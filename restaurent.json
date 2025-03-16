@@ -1,0 +1,93 @@
+[
+  {
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "image": "./Images/macd.jpeg",
+      "description": "Enjoy world-famous burgers and fries!",
+      "rating": 4.3,
+      "address": "123 Main St, New York, NY",
+      "menu": [
+          { "item": "Big Mac", "price": "$5.99" },
+          { "item": "McChicken", "price": "$3.99" },
+          { "item": "Fries", "price": "$2.49" }
+      ]
+  },
+  {
+      "id": "dominos",
+      "name": "Domino's Pizza",
+      "image": "./Images/pizza.jpeg",
+      "description": "Hot and fresh pizzas delivered fast!",
+      "rating": 4.5,
+      "address": "456 Pizza Lane, Chicago, IL",
+      "menu": [
+          { "item": "Pepperoni Pizza", "price": "$9.99" },
+          { "item": "Cheese Pizza", "price": "$8.99" },
+          { "item": "Garlic Bread", "price": "$4.49" }
+      ]
+  },
+  {
+      "id": "kfc",
+      "name": "KFC",
+      "image": "./Images/kfc.jpeg",
+      "description": "Crispy fried chicken with secret spices!",
+      "rating": 4.2,
+      "address": "789 Chicken Blvd, Los Angeles, CA",
+      "menu": [
+          { "item": "Bucket Chicken", "price": "$12.99" },
+          { "item": "Zinger Burger", "price": "$5.99" },
+          { "item": "Coleslaw", "price": "$2.99" }
+      ]
+  },
+  {
+    "id": "Baskin-Robbins",
+    "name": "Baskin-Robbins",
+    "image": "./Images/baskins.jpeg",
+    "description": "Throughout its 65 years Baskin-Robbins has become a place for families to gather for holidays and everyday celebrations.",
+    "rating": 4.2,
+    "address": "789 Chicken Blvd, Los Angeles, CA",
+   "menu": [
+            { "item": "Chocolate Chip Cookie Dough", "price": "$4.99" },
+            { "item": "Mint Chocolate Chip", "price": "$4.99" },
+            { "item": "Vanilla", "price": "$3.99" }
+        ]
+},
+{
+  "id": "The Cheesecake Factory",
+  "name": "The Cheesecake Factory",
+  "image": "./Images/cake.jpeg",
+  "description": "American chain restaurant offering sizable portions from a vast menu including signature cheesecake",
+  "rating": 4.2,
+  "address": "789 Chicken Blvd, Los Angeles, CA",
+  "menu": [
+    { "item": "Original Cheesecake", "price": "$7.99" },
+    { "item": "Chocolate Hazelnut Cheesecake", "price": "$8.99" },
+    { "item": "Avocado Eggrolls", "price": "$10.99" }
+]
+},
+{
+  "id": "Desi Food",
+  "name": "Desi Food",
+  "image": "./Images/indianhotel.jpeg",
+  "description": "No-frills shopping-center Indian eatery serving all the classics for eat-in or to take out.",
+  "rating": 4.2,
+  "address": "789 Chicken Blvd, Los Angeles, CA",
+  "menu": [
+    { "item": "Butter Chicken", "price": "$12.99" },
+    { "item": "Paneer Tikka", "price": "$9.99" },
+    { "item": "Biryani", "price": "$14.99" }
+]
+},
+{
+  "id": "IHOP",
+  "name": "IHOP",
+  "image": "./Images/ihop.jpeg",
+  "description": "IHOP 'N GO®. Order all your IHOP favorites, including our Breakfast Family Feast, for pickup or delivery.",
+  "rating": 4.2,
+  "address": "789 Chicken Blvd, Los Angeles, CA",
+  "menu": [
+    { "item": "Buttermilk Pancakes", "price": "$6.99" },
+    { "item": "Eggs Benedict", "price": "$8.99" },
+    { "item": "Breakfast Sampler", "price": "$10.99" }
+]
+}
+]
