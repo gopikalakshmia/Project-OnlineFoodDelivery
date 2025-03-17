@@ -1,4 +1,3 @@
-
 $.ajax({
   url: "restaurent.json",
   method: "GET",
@@ -21,8 +20,3 @@ $.ajax({
    $('#restaurant-list').html('<p>The data is not loaded...Error ocured....</p>')
   },
 });
-
-function buttonClick( restaurant,itemName,itemPrice) {
-
-  console.log('Item:',itemName);
-  }
