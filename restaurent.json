@@ -7,9 +7,9 @@
       "rating": 4.3,
       "address": "123 Main St, New York, NY",
       "menu": [
-          { "item": "Big Mac", "price": "$5.99" },
-          { "item": "McChicken", "price": "$3.99" },
-          { "item": "Fries", "price": "$2.49" }
+          { "item": "Big Mac", "price": "5.99" },
+          { "item": "McChicken", "price": "3.99" },
+          { "item": "Fries", "price": "2.49" }
       ]
   },
   {
@@ -20,9 +20,9 @@
       "rating": 4.5,
       "address": "456 Pizza Lane, Chicago, IL",
       "menu": [
-          { "item": "Pepperoni Pizza", "price": "$9.99" },
-          { "item": "Cheese Pizza", "price": "$8.99" },
-          { "item": "Garlic Bread", "price": "$4.49" }
+          { "item": "Pepperoni Pizza", "price": "9.99" },
+          { "item": "Cheese Pizza", "price": "8.99" },
+          { "item": "Garlic Bread", "price": "4.49" }
       ]
   },
   {
@@ -33,9 +33,9 @@
       "rating": 4.2,
       "address": "789 Chicken Blvd, Los Angeles, CA",
       "menu": [
-          { "item": "Bucket Chicken", "price": "$12.99" },
-          { "item": "Zinger Burger", "price": "$5.99" },
-          { "item": "Coleslaw", "price": "$2.99" }
+          { "item": "Bucket Chicken", "price": "12.99" },
+          { "item": "Zinger Burger", "price": "5.99" },
+          { "item": "Coleslaw", "price": "2.99" }
       ]
   },
   {
@@ -46,9 +46,9 @@
     "rating": 4.2,
     "address": "789 Chicken Blvd, Los Angeles, CA",
    "menu": [
-            { "item": "Chocolate Chip Cookie Dough", "price": "$4.99" },
-            { "item": "Mint Chocolate Chip", "price": "$4.99" },
-            { "item": "Vanilla", "price": "$3.99" }
+            { "item": "Chocolate Chip Cookie Dough", "price": "4.99" },
+            { "item": "Mint Chocolate Chip", "price": "4.99" },
+            { "item": "Vanilla", "price": "3.99" }
         ]
 },
 {
@@ -59,9 +59,9 @@
   "rating": 4.2,
   "address": "789 Chicken Blvd, Los Angeles, CA",
   "menu": [
-    { "item": "Original Cheesecake", "price": "$7.99" },
-    { "item": "Chocolate Hazelnut Cheesecake", "price": "$8.99" },
-    { "item": "Avocado Eggrolls", "price": "$10.99" }
+    { "item": "Original Cheesecake", "price": "7.99" },
+    { "item": "Chocolate Hazelnut Cheesecake", "price": "8.99" },
+    { "item": "Avocado Eggrolls", "price": "10.99" }
 ]
 },
 {
@@ -72,9 +72,9 @@
   "rating": 4.2,
   "address": "789 Chicken Blvd, Los Angeles, CA",
   "menu": [
-    { "item": "Butter Chicken", "price": "$12.99" },
-    { "item": "Paneer Tikka", "price": "$9.99" },
-    { "item": "Biryani", "price": "$14.99" }
+    { "item": "Butter Chicken", "price": "12.99" },
+    { "item": "Paneer Tikka", "price": "9.99" },
+    { "item": "Biryani", "price": "14.99" }
 ]
 },
 {
@@ -85,9 +85,9 @@
   "rating": 4.2,
   "address": "789 Chicken Blvd, Los Angeles, CA",
   "menu": [
-    { "item": "Buttermilk Pancakes", "price": "$6.99" },
-    { "item": "Eggs Benedict", "price": "$8.99" },
-    { "item": "Breakfast Sampler", "price": "$10.99" }
+    { "item": "Buttermilk Pancakes", "price": "6.99" },
+    { "item": "Eggs Benedict", "price": "8.99" },
+    { "item": "Breakfast Sampler", "price": "10.99" }
 ]
 }
 ]
