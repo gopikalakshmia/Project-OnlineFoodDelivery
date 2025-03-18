@@ -44,6 +44,7 @@ function rendercart(){
 
   $(document).ready(function () {
 let user=JSON.parse(localStorage.getItem('user-Login'))||{login:false};
+console.log(user);
 if(user.login){
 
   let cart=JSON.parse(localStorage.getItem('cart'))||[];
@@ -84,7 +85,7 @@ if(user.login){
   }
 }
 else{
-  $('#cartDetails').html(<h2>Please Login......</h2>);
+  $('#cartDetails').html('<h2>Please Login......</h2>');
 }
 
    

@@ -27,8 +27,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#"><img src="./Images/logo.png" style="width: 50px;"
-                        alt="food-Delivery-Icon" />FoodOn</a>
+                <button class="navbar-brand" href="#" onclick="filterCategory('')"><img src="./Images/logo.png" style="width: 50px;" 
+                        alt="food-Delivery-Icon" />FoodOn</button>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a href="./SignIn.html" class="nav-link">Login/SignUp</a>
@@ -37,10 +37,7 @@
                         <a class="nav-link" href="./Cart.html">Cart</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
             </div>
         </div>
     </nav>
@@ -51,16 +48,16 @@
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <div class="row">
                         <div style="width: 50px;" class="col-2 m-3 p-1 ">
-                            <a class="nav-link"><img src="./Images/breakfast.jpeg" style="width: 50px;" />Breakfast</a>
+                            <button class="nav-link"><img src="./Images/breakfast.jpeg" style="width: 50px;" onclick="filterCategory('breakfast')" />Breakfast</button>
                         </div>
                         <div style="width: 50px;" class="col-2 m-3 p-1 ">
-                            <a class="nav-link"><img src="./Images/fastfood.jpeg" style="width: 50px;" />FastFood</a>
+                            <button class="nav-link"><img src="./Images/fastfood.jpeg" style="width: 50px;" onclick="filterCategory('fastfood')"/>FastFood</button>
                         </div>
                         <div style="width: 50px;" class="col-2 m-3 p-1 ">
-                            <a class="nav-link"><img src="./Images/indian.jpeg" style="width: 50px;" />Indian</a>
+                            <button class="nav-link"><img src="./Images/indian.jpeg" style="width: 50px;" onclick="filterCategory('indian')"/>Indian</button>
                         </div>
                         <div style="width: 50px;" class="col-2 m-3 p-1 ">
-                            <a class="nav-link"><img src="./Images/download.png" style="width: 50px;" />Dessets</a>
+                            <button class="nav-link"><img src="./Images/download.png" style="width: 50px;" onclick="filterCategory('dessert')"/>Dessets</button>
                         </div>
                     </div>
                 </ul>

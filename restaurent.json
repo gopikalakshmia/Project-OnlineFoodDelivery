@@ -2,6 +2,7 @@
   {
       "id": "mcdonalds",
       "name": "McDonald's",
+      "category":"fastfood",
       "image": "./Images/macd.jpeg",
       "description": "Enjoy world-famous burgers and fries!",
       "rating": 4.3,
@@ -15,6 +16,7 @@
   {
       "id": "dominos",
       "name": "Domino's Pizza",
+      "category":"fastfood",
       "image": "./Images/pizza.jpeg",
       "description": "Hot and fresh pizzas delivered fast!",
       "rating": 4.5,
@@ -28,6 +30,7 @@
   {
       "id": "kfc",
       "name": "KFC",
+      "category":"fastfood",
       "image": "./Images/kfc.jpeg",
       "description": "Crispy fried chicken with secret spices!",
       "rating": 4.2,
@@ -41,6 +44,7 @@
   {
     "id": "BaskinRobbins",
     "name": "Baskin-Robbins",
+    "category":"dessert",
     "image": "./Images/baskins.jpeg",
     "description": "Throughout its 65 years Baskin-Robbins has become a place for families to gather for holidays and everyday celebrations.",
     "rating": 4.2,
@@ -54,6 +58,7 @@
 {
   "id": "TheCheesecakeFactory",
   "name": "The Cheesecake Factory",
+  "category":"dessert",
   "image": "./Images/cake.jpeg",
   "description": "American chain restaurant offering sizable portions from a vast menu including signature cheesecake",
   "rating": 4.2,
@@ -67,6 +72,7 @@
 {
   "id": "DesiFood",
   "name": "Desi Food",
+  "category":"indian",
   "image": "./Images/indianhotel.jpeg",
   "description": "No-frills shopping-center Indian eatery serving all the classics for eat-in or to take out.",
   "rating": 4.2,
@@ -80,6 +86,7 @@
 {
   "id": "IHOP",
   "name": "IHOP",
+  "category":"breakfast",
   "image": "./Images/ihop.jpeg",
   "description": "IHOP 'N GO®. Order all your IHOP favorites, including our Breakfast Family Feast, for pickup or delivery.",
   "rating": 4.2,
