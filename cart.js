@@ -75,7 +75,7 @@ if(user.login){
       </table>
      
       <h2>Total Price: ${cart.reduce((acc,item)=>acc+(item.orderPrice*item.Qty),0).toFixed(2)}</h2>
-      <button type="button" class="btn btn-success p-2">Pay</button>
+      <a type="button" href="./payment.html" class="btn btn-success p-2">Pay</a>
     `;
       $('#cartDetails').html(cartItem);
   }
